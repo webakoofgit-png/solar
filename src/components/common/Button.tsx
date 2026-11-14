@@ -1,5 +1,6 @@
 import React from 'react';
-import { motion, HTMLMotionProps } from 'framer-motion';
+import { motion } from 'framer-motion';
+import type { HTMLMotionProps } from 'framer-motion';
 
 type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'dark' | 'ghost';
 type ButtonSize = 'sm' | 'md' | 'lg';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, CheckCircle2, MessageSquare, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
+import { X, CheckCircle2, MessageSquare, Zap, ShieldCheck, ArrowRight, Sparkles } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { COMPANY_INFO } from '../../data/solarData';
 
