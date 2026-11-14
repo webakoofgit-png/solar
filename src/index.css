@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #030d17;
+  --color-navy-900: #071B2E;
+  --color-navy-850: #0a2136;
+  --color-navy-800: #0e2b45;
+  --color-navy-700: #163b5e;
+  --color-navy-600: #1f4f7d;
+  
+  /* Green Nations Power Inspired Renewable Greens */
+  --color-emerald-brand: #0F9D58;
+  --color-emerald-accent: #10B981;
+  --color-emerald-deep: #047857;
+  --color-emerald-light: #ECFDF5;
+  --color-emerald-muted: #D1FAE5;
+  --color-emerald-border: #A7F3D0;
+
+  /* Solar Gold / Sun Accents */
+  --color-solar-gold: #F5B700;
+  --color-solar-gold-dark: #d49e00;
+  --color-electric-yellow: #FFD447;
+  --color-solar-accent: #ffe17d;
+  
+  --color-pure-white: #FFFFFF;
+  --color-soft-white: #F7F9FC;
+  --color-cool-gray: #667788;
+  --color-cool-gray-light: #9aa8b8;
+  --color-cool-gray-dark: #415161;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  color: #0f172a;
+  background-color: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #071B2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #059669;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}
+
+/* Glassmorphism utilities */
+.glass-dark {
+  background: rgba(7, 27, 46, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-nav {
+  background: rgba(7, 27, 46, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.35);
+}
+
+.glow-solar {
+  box-shadow: 0 0 35px -5px rgba(245, 183, 0, 0.35);
+}
+
+/* Selection style */
+::selection {
+  background-color: #10B981;
+  color: #FFFFFF;
+}
