@@ -37,7 +37,7 @@ export const Button: React.FC<ButtonProps> = ({
     outline:
       'bg-transparent text-white border-2 border-amber-400/80 hover:bg-amber-400/10 hover:border-amber-300 shadow-sm',
     dark:
-      'bg-[#071B2E] text-white hover:bg-[#0e2b45] border border-amber-400/30 hover:border-amber-400',
+      'bg-[#0b120e] text-white hover:bg-[#17251c] border border-amber-400/30 hover:border-amber-400',
     ghost:
       'bg-transparent text-slate-700 hover:text-slate-950 hover:bg-slate-100',
   };

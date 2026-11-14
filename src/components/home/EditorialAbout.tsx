@@ -28,7 +28,7 @@ export const EditorialAbout: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#F8FAFC] relative overflow-hidden border-b border-slate-200">
+    <section className="py-24 bg-[#f3f2ed] relative overflow-hidden border-b border-slate-200">
       {/* Background ambient accent */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-96 h-96 bg-emerald-500/[0.03] rounded-full blur-3xl pointer-events-none" />
 
@@ -44,7 +44,7 @@ export const EditorialAbout: React.FC = () => {
               className="relative z-10 rounded-3xl overflow-hidden shadow-xl border border-slate-200 aspect-[4/3] group"
             >
               <img
-                src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80"
+                src="/images/home/industrial-solar.jpg"
                 alt="Sanmitra Solar large installation"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
@@ -68,7 +68,7 @@ export const EditorialAbout: React.FC = () => {
             >
               <div className="aspect-[4/3]">
                 <img
-                  src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+                  src="/images/home/residential-solar.jpg"
                   alt="Modern residential solar home"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"

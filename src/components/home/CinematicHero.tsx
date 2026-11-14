@@ -20,7 +20,7 @@ export const CinematicHero: React.FC<CinematicHeroProps> = ({ onOpenQuote }) => 
   };
 
   return (
-    <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-[#071B2E]">
+    <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-[#0b120e]">
       {/* Background Image with Zoom & Parallax */}
       <motion.div
         style={{ y }}
@@ -32,13 +32,13 @@ export const CinematicHero: React.FC<CinematicHeroProps> = ({ onOpenQuote }) => 
           transition={{ duration: 3.5, ease: 'easeOut' }}
           className="w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2400&q=85')`,
+            backgroundImage: `url('/images/home/industrial-solar.jpg')`,
           }}
         />
 
         {/* Multi-layered cinematic overlays */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#071B2E] via-[#071B2E]/70 to-[#071B2E]/50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#071B2E]/90 via-[#071B2E]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b120e] via-[#0b120e]/70 to-[#0b120e]/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b120e]/90 via-[#0b120e]/60 to-transparent" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-emerald-500/10 via-transparent to-transparent" />
       </motion.div>
 
@@ -164,7 +164,7 @@ export const CinematicHero: React.FC<CinematicHeroProps> = ({ onOpenQuote }) => 
               className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-emerald-400/40 aspect-[4/3] group"
             >
               <img
-                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80"
+                src="/images/home/residential-solar.jpg"
                 alt="Modern solar rooftop installation"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -189,7 +189,7 @@ export const CinematicHero: React.FC<CinematicHeroProps> = ({ onOpenQuote }) => 
             >
               <div className="aspect-[16/10] rounded-xl overflow-hidden mb-2">
                 <img
-                  src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=600&q=80"
+                  src="/images/home/commercial-solar.jpg"
                   alt="Commercial solar project"
                   className="w-full h-full object-cover"
                 />
@@ -201,7 +201,7 @@ export const CinematicHero: React.FC<CinematicHeroProps> = ({ onOpenQuote }) => 
             </motion.div>
 
             {/* Circular badge */}
-            <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-emerald-600 text-white border-4 border-[#071B2E] shadow-xl flex flex-col items-center justify-center text-center leading-none">
+            <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-emerald-600 text-white border-4 border-[#0b120e] shadow-xl flex flex-col items-center justify-center text-center leading-none">
               <span className="text-[10px] uppercase font-bold">PM Surya</span>
               <span className="text-xs font-black text-amber-300">Ghar</span>
             </div>

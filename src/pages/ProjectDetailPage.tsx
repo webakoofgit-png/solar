@@ -33,7 +33,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
 
   if (!project) {
     return (
-      <div className="bg-[#071B2E] text-white min-h-screen pt-40 pb-20 text-center">
+      <div className="bg-[#0b120e] text-white min-h-screen pt-40 pb-20 text-center">
         <div className="max-w-md mx-auto px-4">
           <h2 className="font-display text-3xl font-bold mb-4">Project Not Found</h2>
           <p className="text-sm text-slate-400 mb-6">
@@ -51,16 +51,16 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
   }
 
   return (
-    <div className="bg-[#071B2E] text-slate-100 min-h-screen">
+    <div className="bg-[#0b120e] text-slate-100 min-h-screen">
       {/* Project Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#040f1a] border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#08100b] border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover opacity-35"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#040f1a] via-[#040f1a]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#08100b] via-[#08100b]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -187,7 +187,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
             {/* Right Column (4 cols): Technical Specifications Card & CTA */}
             <div className="lg:col-span-4 space-y-6">
               {/* Specs Box */}
-              <div className="p-6 sm:p-7 rounded-2xl bg-[#040f1a] border border-amber-400/30 shadow-2xl sticky top-28">
+              <div className="p-6 sm:p-7 rounded-2xl bg-[#08100b] border border-amber-400/30 shadow-2xl sticky top-28">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400 mb-4 pb-3 border-b border-slate-800">
                   <Zap className="w-4 h-4" />
                   <span>Technical Data Sheet</span>

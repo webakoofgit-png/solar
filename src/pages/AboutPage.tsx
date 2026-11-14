@@ -49,14 +49,14 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuote }) => {
   return (
     <div className="bg-white text-slate-900 min-h-screen">
       {/* Inner Page Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#071B2E] text-white border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#0b120e] text-white border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/industrial-solar.jpg"
             alt="Solar array at dusk"
             className="w-full h-full object-cover opacity-25"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#071B2E] via-[#071B2E]/85 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b120e] via-[#0b120e]/85 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -115,7 +115,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuote }) => {
             <div className="lg:col-span-6 relative">
               <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-xl aspect-[4/3] group">
                 <img
-                  src="https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80"
+                  src="/images/home/commercial-solar.jpg"
                   alt="Solar engineering inspection"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
@@ -135,7 +135,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuote }) => {
       </section>
 
       {/* Mission & Vision Cards */}
-      <section className="py-20 bg-[#F8FAFC] border-b border-slate-200">
+      <section className="py-20 bg-[#f3f2ed] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Mission */}
@@ -215,7 +215,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenQuote }) => {
       </section>
 
       {/* Leadership & Engineering Team */}
-      <section className="py-24 bg-[#F8FAFC]">
+      <section className="py-24 bg-[#f3f2ed]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Leadership Team"

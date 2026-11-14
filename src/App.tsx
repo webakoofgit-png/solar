@@ -44,7 +44,7 @@ export function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-white text-slate-900 selection:bg-emerald-500 selection:text-white font-sans">
+      <div className="min-h-screen flex flex-col bg-[#f3f2ed] text-slate-900 selection:bg-amber-400 selection:text-slate-950 font-sans">
         {/* Top Scroll Indicator */}
         <ScrollProgress />
 

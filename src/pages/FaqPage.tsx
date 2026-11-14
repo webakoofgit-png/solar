@@ -42,16 +42,16 @@ export const FaqPage: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#071B2E] text-slate-100 min-h-screen">
+    <div className="bg-[#0b120e] text-slate-100 min-h-screen">
       {/* Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#040f1a] border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#08100b] border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/industrial-solar.jpg"
             alt="Solar FAQ banner"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#040f1a] via-[#040f1a]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#08100b] via-[#08100b]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -75,7 +75,7 @@ export const FaqPage: React.FC = () => {
       </section>
 
       {/* Filter and Search Bar */}
-      <section className="py-8 bg-[#040f1a] border-b border-slate-800/80 sticky top-[72px] z-30 backdrop-blur-md bg-opacity-95">
+      <section className="py-8 bg-[#08100b] border-b border-slate-800/80 sticky top-[72px] z-30 backdrop-blur-md bg-opacity-95">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <div className="relative w-full">
@@ -130,7 +130,7 @@ export const FaqPage: React.FC = () => {
               return (
                 <div
                   key={faq.id}
-                  className="rounded-2xl bg-[#040f1a] border border-slate-800 overflow-hidden transition-colors hover:border-slate-700"
+                  className="rounded-2xl bg-[#08100b] border border-slate-800 overflow-hidden transition-colors hover:border-slate-700"
                 >
                   <button
                     onClick={() => toggleFaq(faq.id)}
@@ -178,7 +178,7 @@ export const FaqPage: React.FC = () => {
       </section>
 
       {/* Still Have Questions CTA */}
-      <section className="py-20 bg-gradient-to-t from-[#040f1a] to-[#071B2E] border-t border-slate-800">
+      <section className="py-20 bg-gradient-to-t from-[#08100b] to-[#0b120e] border-t border-slate-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <div className="w-14 h-14 rounded-2xl bg-amber-400/10 text-amber-400 border border-amber-400/30 flex items-center justify-center mx-auto">
             <MessageCircle className="w-7 h-7" />

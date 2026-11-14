@@ -31,7 +31,7 @@ export const ModuleTechShowcase: React.FC<ModuleTechShowcaseProps> = ({
   };
 
   return (
-    <section id="modules" className="py-24 bg-[#071B2E] text-white relative overflow-hidden border-t border-slate-800">
+    <section id="modules" className="py-24 bg-[#0b120e] text-white relative overflow-hidden border-t border-slate-800">
       {/* Background radial accent */}
       <div className="absolute top-1/3 left-1/4 w-[600px] h-[600px] bg-emerald-500/[0.04] rounded-full blur-3xl pointer-events-none" />
 
@@ -70,7 +70,7 @@ export const ModuleTechShowcase: React.FC<ModuleTechShowcaseProps> = ({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4 }}
-            className="rounded-3xl bg-[#040f1a] border border-emerald-500/30 p-8 sm:p-12 shadow-2xl relative overflow-hidden"
+            className="rounded-3xl bg-[#08100b] border border-emerald-500/30 p-8 sm:p-12 shadow-2xl relative overflow-hidden"
           >
             {/* Top Glowing Gradient Accent */}
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-emerald-400 via-teal-400 to-amber-400" />
@@ -99,7 +99,7 @@ export const ModuleTechShowcase: React.FC<ModuleTechShowcaseProps> = ({
                 </div>
 
                 {/* Floating warranty seal */}
-                <div className="absolute -top-4 -right-4 px-4 py-2.5 rounded-2xl bg-emerald-600 text-white font-display font-bold text-xs uppercase tracking-wider shadow-xl flex items-center gap-2 border-2 border-[#040f1a]">
+                <div className="absolute -top-4 -right-4 px-4 py-2.5 rounded-2xl bg-emerald-600 text-white font-display font-bold text-xs uppercase tracking-wider shadow-xl flex items-center gap-2 border-2 border-[#08100b]">
                   <ShieldCheck className="w-4 h-4 text-amber-300" />
                   <span>{activeModule.warrantyPerformance}</span>
                 </div>

@@ -57,7 +57,7 @@ export const TrustStats: React.FC = () => {
                   <IconComponent className="w-6 h-6" />
                 </div>
 
-                <div className="font-display text-4xl sm:text-5xl font-extrabold text-[#071B2E] tracking-tight flex items-baseline">
+                <div className="font-display text-4xl sm:text-5xl font-extrabold text-[#0b120e] tracking-tight flex items-baseline">
                   <AnimatedCounter end={stat.value} />
                   <span className="text-emerald-600 ml-1">{stat.suffix}</span>
                 </div>

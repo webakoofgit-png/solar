@@ -10,7 +10,7 @@ export const ResourceCenter: React.FC = () => {
   };
 
   return (
-    <section id="resources" className="py-24 bg-[#F8FAFC] relative overflow-hidden border-t border-slate-200">
+    <section id="resources" className="py-24 bg-[#f3f2ed] relative overflow-hidden border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="Vikicare-Inspired Knowledge Hub"
@@ -72,7 +72,7 @@ export const ResourceCenter: React.FC = () => {
         </div>
 
         {/* Customer Care Banner */}
-        <div className="mt-14 p-8 rounded-3xl bg-gradient-to-r from-[#071B2E] via-[#0B253A] to-[#071B2E] text-white border border-emerald-500/20 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-14 p-8 rounded-3xl bg-gradient-to-r from-[#0b120e] via-[#17251c] to-[#0b120e] text-white border border-emerald-500/20 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left space-y-1">
             <span className="text-emerald-400 text-xs font-bold uppercase tracking-wider">
               Sanmitra Care • Lifelong Support

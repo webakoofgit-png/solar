@@ -59,7 +59,7 @@ export const SectorsWeServe: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#071B2E] text-white relative overflow-hidden">
+    <section className="py-24 bg-[#0b120e] text-white relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-emerald-500/[0.04] rounded-full blur-3xl pointer-events-none" />
 

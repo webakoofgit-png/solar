@@ -31,14 +31,14 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#040f1a] text-slate-300 border-t border-slate-800/80 relative overflow-hidden">
+    <footer className="bg-[#08100b] text-slate-300 border-t border-slate-800/80 relative overflow-hidden">
       {/* Subtle background solar grid pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(#F5B700_1px,transparent_1px)] [background-size:32px_32px] opacity-[0.03] pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(#c8ff32_1px,transparent_1px)] [background-size:32px_32px] opacity-[0.03] pointer-events-none" />
 
       {/* Top Banner / Newsletter */}
       <div className="border-b border-slate-800/60 py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 bg-gradient-to-r from-[#071B2E] via-[#0d2740] to-[#071B2E] p-8 sm:p-10 rounded-2xl border border-emerald-500/30 shadow-2xl">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 bg-gradient-to-r from-[#0b120e] via-[#132219] to-[#0b120e] p-8 sm:p-10 rounded-2xl border border-emerald-500/30 shadow-2xl">
             <div className="max-w-xl text-center lg:text-left">
               <span className="text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-2 inline-block">
                 Stay Solar Informed
@@ -260,7 +260,7 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Disclaimer and Bottom Bar */}
-      <div className="bg-[#020810] py-6 border-t border-slate-900 text-xs text-slate-500">
+      <div className="bg-[#050906] py-6 border-t border-slate-900 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
           <div className="flex items-start gap-2.5 p-3 rounded-xl bg-slate-900/40 border border-slate-800 text-[11px] text-slate-400">
             <ShieldCheck className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />

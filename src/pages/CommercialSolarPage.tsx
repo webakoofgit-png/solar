@@ -56,14 +56,14 @@ export const CommercialSolarPage: React.FC<CommercialSolarPageProps> = ({
   return (
     <div className="bg-white text-slate-900 min-h-screen">
       {/* Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#071B2E] text-white border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#0b120e] text-white border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/commercial-solar.jpg"
             alt="Commercial solar plant"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#071B2E] via-[#071B2E]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b120e] via-[#0b120e]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -137,7 +137,7 @@ export const CommercialSolarPage: React.FC<CommercialSolarPageProps> = ({
       </section>
 
       {/* Engineering Models: CAPEX vs OPEX */}
-      <section className="py-24 bg-[#F8FAFC] border-b border-slate-200">
+      <section className="py-24 bg-[#f3f2ed] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Financing Architecture"

@@ -54,11 +54,11 @@ export const PROJECTS: Project[] = [
     capacity: '15 kWp',
     location: 'Bavdhan Hills, Pune',
     completionYear: '2024',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/residential-solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/residential-solar.jpg',
+      '/images/home/residential-solar.jpg',
+      '/images/home/industrial-solar.jpg'
     ],
     summary: 'A bespoke high-efficiency bi-facial rooftop installation architecturally integrated into an ultra-modern contemporary villa.',
     clientRequirement: 'The client desired a net-zero residential footprint to offset heavy HVAC and EV fast-charging consumption while preserving the contemporary architectural aesthetic of their hillside residence without visible cabling.',
@@ -88,11 +88,11 @@ export const PROJECTS: Project[] = [
     capacity: '185 kWp',
     location: 'Hinjawadi Infotech Zone, Pune',
     completionYear: '2024',
-    image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/commercial-solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/commercial-solar.jpg',
+      '/images/home/commercial-solar.jpg',
+      '/images/home/industrial-solar.jpg'
     ],
     summary: 'Turnkey commercial rooftop solar plant installed on twin 14-story corporate office towers, meeting stringent ESG clean energy compliance.',
     clientRequirement: 'Corporate facility managers needed to slash heavy daylight operational tariffs, meet green building LEED Gold certification thresholds, and monetize idle reinforced concrete rooftop area.',
@@ -122,11 +122,11 @@ export const PROJECTS: Project[] = [
     capacity: '850 kWp',
     location: 'Chakan Industrial Corridor, Maharashtra',
     completionYear: '2023',
-    image: 'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/industrial-solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/industrial-solar.jpg',
+      '/images/home/climate-energy.jpg',
+      '/images/home/industrial-solar.jpg'
     ],
     summary: 'A heavy-duty industrial metal shed rooftop solar powerhouse reducing operational power costs by over 45% for a manufacturing leader.',
     clientRequirement: 'Heavy manufacturing plant experiencing steep commercial power tariffs during daytime shift hours wanted energy independence and power factor stabilization.',
@@ -156,10 +156,10 @@ export const PROJECTS: Project[] = [
     capacity: '320 kWp',
     location: 'Kothrud Academic Hub, Pune',
     completionYear: '2023',
-    image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/climate-energy.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/climate-energy.jpg',
+      '/images/home/commercial-solar.jpg'
     ],
     summary: 'Distributed solar network spanning university lecture halls, library rooftops, and solar-covered parking canopies.',
     clientRequirement: 'University needed a self-sustaining green energy transition to offset hostel heating and campus lighting costs while educating engineering students on live solar analytics.',
@@ -188,10 +188,10 @@ export const PROJECTS: Project[] = [
     capacity: '10 kWp',
     location: 'Mulshi Valley, Maharashtra',
     completionYear: '2024',
-    image: 'https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/residential-solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/residential-solar.jpg',
+      '/images/home/residential-solar.jpg'
     ],
     summary: 'Off-grid hybrid solar power plant ensuring 100% self-reliance for an eco-retreat situated in an area prone to grid outages.',
     clientRequirement: 'Eco-conscious homeowner required total resilience from recurring rural grid outages, silent operation without diesel generators, and automated water pumping.',
@@ -220,10 +220,10 @@ export const PROJECTS: Project[] = [
     capacity: '420 kWp',
     location: 'Talegaon Logistics Park, Pune',
     completionYear: '2023',
-    image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/commercial-solar.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80'
+      '/images/home/commercial-solar.jpg',
+      '/images/home/industrial-solar.jpg'
     ],
     summary: 'Vast warehouse rooftop solar canopy powering automated temperature-controlled pharmaceutical cold storage chain.',
     clientRequirement: 'Temperature-critical pharmaceutical supply chain facility required massive daylight baseload electricity to run multi-megawatt refrigeration compressors.',
@@ -253,7 +253,7 @@ export const SOLUTIONS: Solution[] = [
     title: 'Residential Rooftop Solar',
     shortDesc: 'Turn your roof into an independent power plant. Slash electricity bills by up to 90% while adding sustainable value to your home.',
     fullDesc: 'Sanmitra Solar delivers precision-crafted residential solar solutions tailored to villas, row houses, and residential housing societies. From architectural 3D shadow analysis to net-metering liaison and subsidy paperwork, we handle every detail so you enjoy effortless, zero-maintenance clean energy for decades.',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/residential-solar.jpg',
     features: [
       'Custom 3D CAD roof layout and shadow simulation',
       'Tier-1 Monocrystalline & Bi-facial high-yield panels',
@@ -296,7 +296,7 @@ export const SOLUTIONS: Solution[] = [
     title: 'Commercial & Corporate Solar',
     shortDesc: 'Accelerate corporate profitability, achieve ESG targets, and hedge against rising commercial grid tariffs with zero downtime.',
     fullDesc: 'Commercial buildings and corporate tech parks face some of the highest peak utility tariffs. Sanmitra Solar engineers custom commercial solar rooftop and solar carport installations that transform idle roofs and parking lots into high-yield financial assets with rapid return on investment.',
-    image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/commercial-solar.jpg',
     features: [
       'High-voltage HT interconnection & regulatory compliance',
       'CAPEX & OPEX (PPA) financing models available',
@@ -339,7 +339,7 @@ export const SOLUTIONS: Solution[] = [
     title: 'Industrial Solar Plants',
     shortDesc: 'Heavy-duty megawatts for manufacturing plants, cold storage, and processing factories with high energy baseloads.',
     fullDesc: 'Energy is often one of the top three manufacturing costs. Sanmitra Solar designs robust industrial solar plants engineered for heavy industrial roofs, metal trapezoidal profiles, and open ground-mount acreage. We balance structural integrity, electrical harmonics, and non-disruptive installation.',
-    image: 'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/industrial-solar.jpg',
     features: [
       'Engineered for pre-engineered building (PEB) metal roofs',
       'Zero-penetration standing seam clamps prevent leaks',
@@ -382,7 +382,7 @@ export const SOLUTIONS: Solution[] = [
     title: 'Operations, Maintenance & Audit',
     shortDesc: 'Maximize solar uptime, prevent generation degradation, and ensure peak kilowatt-hour generation year-round.',
     fullDesc: 'Solar systems are long-term 25-year financial assets. Dust, hot spots, string faults, and micro-cracks can cause up to 25% energy loss if neglected. Sanmitra Solar provides comprehensive operations, preventive maintenance (O&M), drone thermography, and health audit services.',
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/home/industrial-solar.jpg',
     features: [
       'Preventive scheduled electrical & mechanical audits',
       'Thermal imaging & drone inspections for micro-cracks',
@@ -430,7 +430,7 @@ export const TESTIMONIALS: Testimonial[] = [
     capacity: '12 kWp',
     rating: 5,
     quote: 'Sanmitra Solar exceeded our expectations. Our summer electricity bills plunged from ₹16,000 down to less than ₹900. Their team completed net metering liaison smoothly and the elevated pergola looks like an architectural feature.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80'
+    image: '/images/people/person-1.jpg'
   },
   {
     id: '2',
@@ -441,7 +441,7 @@ export const TESTIMONIALS: Testimonial[] = [
     capacity: '185 kWp',
     rating: 5,
     quote: 'From detailed 3D shadow modeling to safety during installation on our live office building, Sanmitra demonstrated world-class engineering. The project reached commercial operation a week ahead of schedule.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80'
+    image: '/images/people/person-2.jpg'
   },
   {
     id: '3',
@@ -452,7 +452,7 @@ export const TESTIMONIALS: Testimonial[] = [
     capacity: '650 kWp',
     rating: 5,
     quote: 'Power cost is our largest operational overhead. Sanmitra’s non-penetrating clamps preserved our factory metal shed warranty, and the system has yielded over 105% of the projected simulation figures in year one.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80'
+    image: '/images/people/person-3.jpg'
   },
   {
     id: '4',
@@ -463,7 +463,7 @@ export const TESTIMONIALS: Testimonial[] = [
     capacity: '45 kWp',
     rating: 5,
     quote: 'Our society lift, water pumping, and garden lighting common meter bills were a constant headache. Sanmitra installed a central system that pays for itself. Their transparency and patience with society committee meetings were exemplary.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80'
+    image: '/images/people/person-4.jpg'
   }
 ];
 
@@ -525,7 +525,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Founder & Managing Director',
     experience: '18+ Years Renewable Leadership',
     bio: 'Pioneered solar EPC practices across western India, steering over 50 MW of solar deployment with an unwavering commitment to engineering rigor and ethics.',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80'
+    image: '/images/people/person-5.jpg'
   },
   {
     id: '2',
@@ -533,7 +533,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Head of Solar Engineering & Design',
     experience: '12+ Years System Architect',
     bio: 'Specialist in 3D solar irradiance modeling, HT interconnection design, and high-efficiency bi-facial rooftop system optimization.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80'
+    image: '/images/people/person-2.jpg'
   },
   {
     id: '3',
@@ -541,7 +541,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Chief of Project Execution & Safety',
     experience: '14+ Years Industrial EPC',
     bio: 'Oversees on-site construction standards, certified ISO 45001 safety compliance, and rapid liaisoning with state electrical inspectorates and DISCOMs.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80'
+    image: '/images/people/person-6.jpg'
   },
   {
     id: '4',
@@ -549,7 +549,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Director of Customer Experience',
     experience: '10+ Years CleanTech Operations',
     bio: 'Leads consumer subsidy processing, remote IoT monitoring desks, and guarantees responsive after-sales service for over 1,000+ satisfied clients.',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80'
+    image: '/images/people/person-4.jpg'
   }
 ];
 
@@ -600,7 +600,7 @@ export const MODULE_SERIES = [
     warrantyProduct: '12 Years',
     warrantyPerformance: '30 Years Linear Output',
     bifaciality: 'Up to 80% ± 5%',
-    image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80',
+    image: '/images/home/industrial-solar.jpg',
     description: 'Engineered with cutting-edge N-Type TOPCon 16BB cell architecture. Dual 2.0mm tempered glass ensures extreme mechanical resistance and superior low-light early morning/overcast performance.',
     features: [
       'Zero Light Induced Degradation (LID) & LeTID immunity',
@@ -623,7 +623,7 @@ export const MODULE_SERIES = [
     warrantyProduct: '12 Years',
     warrantyPerformance: '25 Years Linear Output',
     bifaciality: 'Monofacial High-Density',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80',
+    image: '/images/home/residential-solar.jpg',
     description: 'High-power monocrystalline half-cut cells designed to maximize kilowatt generation on constrained urban rooftops. Lower internal resistance minimizes hot-spot risk and ensures higher shade tolerance.',
     features: [
       'Multi-busbar half-cut layout reduces internal resistive losses',
@@ -646,7 +646,7 @@ export const MODULE_SERIES = [
     warrantyProduct: '15 Years',
     warrantyPerformance: '30 Years Linear Output',
     bifaciality: 'Semi-Transparent Bi-facial',
-    image: 'https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=800&q=80',
+    image: '/images/home/residential-solar.jpg',
     description: 'Semi-transparent bifacial frameless or sleek-framed modules engineered for luxury elevated pergolas, carports, and terrace canopies. Combines natural daylighting with active clean energy generation.',
     features: [
       'Transforms idle terrace into a shaded luxury outdoor lounge',

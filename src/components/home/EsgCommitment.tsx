@@ -32,7 +32,7 @@ export const EsgCommitment: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#071B2E] text-white relative overflow-hidden border-t border-slate-800">
+    <section className="py-24 bg-[#0b120e] text-white relative overflow-hidden border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="ESG & Corporate Responsibility"

@@ -48,7 +48,7 @@ export const SustainabilityImpact: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#F8FAFC] relative overflow-hidden border-b border-slate-200">
+    <section className="py-24 bg-[#f3f2ed] relative overflow-hidden border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="Environmental Stewardship"

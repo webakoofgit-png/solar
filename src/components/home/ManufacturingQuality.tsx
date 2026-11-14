@@ -76,7 +76,7 @@ export const ManufacturingQuality: React.FC = () => {
         </div>
 
         {/* Certifications Bar */}
-        <div className="mt-16 p-8 rounded-3xl bg-[#071B2E] text-white border border-slate-800 shadow-2xl">
+        <div className="mt-16 p-8 rounded-3xl bg-[#0b120e] text-white border border-slate-800 shadow-2xl">
           <div className="text-center max-w-2xl mx-auto mb-8">
             <span className="text-emerald-400 text-xs font-semibold uppercase tracking-wider">
               Statutory Approvals &amp; Certifications

@@ -55,7 +55,7 @@ export const ContactPage: React.FC = () => {
         particleCount: 100,
         spread: 70,
         origin: { y: 0.6 },
-        colors: ['#F5B700', '#FFD447', '#071B2E', '#ffffff'],
+        colors: ['#c8ff32', '#d5ff5a', '#0b120e', '#ffffff'],
       });
     } catch {
       // fallback
@@ -83,16 +83,16 @@ export const ContactPage: React.FC = () => {
   );
 
   return (
-    <div className="bg-[#071B2E] text-slate-100 min-h-screen">
+    <div className="bg-[#0b120e] text-slate-100 min-h-screen">
       {/* Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#040f1a] border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#08100b] border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/industrial-solar.jpg"
             alt="Contact Sanmitra Solar"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#040f1a] via-[#040f1a]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#08100b] via-[#08100b]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -207,7 +207,7 @@ export const ContactPage: React.FC = () => {
               </div>
 
               {/* Embedded Map Representation */}
-              <div className="rounded-2xl overflow-hidden border border-slate-800 bg-[#040f1a] relative shadow-lg">
+              <div className="rounded-2xl overflow-hidden border border-slate-800 bg-[#08100b] relative shadow-lg">
                 <div className="p-4 border-b border-slate-800 flex items-center justify-between text-xs text-slate-300">
                   <span className="font-semibold text-white">Innovation Center Location</span>
                   <span className="text-amber-400">Pune, Maharashtra</span>
@@ -239,7 +239,7 @@ export const ContactPage: React.FC = () => {
 
             {/* Right Contact Form (7 cols) */}
             <div className="lg:col-span-7">
-              <div className="bg-[#040f1a] border border-amber-400/25 rounded-3xl p-8 sm:p-10 shadow-2xl relative">
+              <div className="bg-[#08100b] border border-amber-400/25 rounded-3xl p-8 sm:p-10 shadow-2xl relative">
                 <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500 rounded-t-3xl" />
 
                 {!submitted ? (

@@ -1,32 +1,76 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy-950: #030d17;
-  --color-navy-900: #071B2E;
-  --color-navy-850: #0a2136;
-  --color-navy-800: #0e2b45;
-  --color-navy-700: #163b5e;
-  --color-navy-600: #1f4f7d;
+  /* Site-wide palette: warm mineral surfaces, forest blacks, electric lime. */
+  --color-navy-950: #050906;
+  --color-navy-900: #0b120e;
+  --color-navy-850: #101a14;
+  --color-navy-800: #17251c;
+  --color-navy-700: #24382a;
+  --color-navy-600: #385542;
+
+  --color-slate-50: #f3f2ed;
+  --color-slate-100: #e9e8e1;
+  --color-slate-200: #d4d6d0;
+  --color-slate-300: #b9bdb7;
+  --color-slate-400: #8a958d;
+  --color-slate-500: #647067;
+  --color-slate-600: #4e5951;
+  --color-slate-700: #354039;
+  --color-slate-800: #1d2922;
+  --color-slate-900: #101713;
+  --color-slate-950: #0b120e;
   
   /* Green Nations Power Inspired Renewable Greens */
-  --color-emerald-brand: #0F9D58;
-  --color-emerald-accent: #10B981;
-  --color-emerald-deep: #047857;
-  --color-emerald-light: #ECFDF5;
-  --color-emerald-muted: #D1FAE5;
-  --color-emerald-border: #A7F3D0;
+  --color-emerald-50: #f1f7e6;
+  --color-emerald-100: #e3efce;
+  --color-emerald-200: #e2ff8e;
+  --color-emerald-300: #d5ff5a;
+  --color-emerald-400: #c8ff32;
+  --color-emerald-500: #638c2e;
+  --color-emerald-600: #355f32;
+  --color-emerald-700: #274b2a;
+  --color-emerald-800: #1d3b23;
+  --color-emerald-900: #142b1b;
+  --color-emerald-brand: #355f32;
+  --color-emerald-accent: #c8ff32;
+  --color-emerald-deep: #1d3b23;
+  --color-emerald-light: #f1f7e6;
+  --color-emerald-muted: #e3efce;
+  --color-emerald-border: #b8d977;
+
+  --color-teal-50: #f1f7e6;
+  --color-teal-100: #e3efce;
+  --color-teal-200: #d0e7a6;
+  --color-teal-300: #b8d977;
+  --color-teal-400: #9fc54b;
+  --color-teal-500: #4f7937;
+  --color-teal-600: #355f32;
+  --color-teal-700: #274b2a;
+  --color-teal-800: #1d3b23;
+  --color-teal-900: #142b1b;
 
   /* Solar Gold / Sun Accents */
-  --color-solar-gold: #F5B700;
-  --color-solar-gold-dark: #d49e00;
-  --color-electric-yellow: #FFD447;
-  --color-solar-accent: #ffe17d;
+  --color-amber-50: #f8ffe7;
+  --color-amber-100: #efffc5;
+  --color-amber-200: #e2ff8e;
+  --color-amber-300: #d5ff5a;
+  --color-amber-400: #c8ff32;
+  --color-amber-500: #afe525;
+  --color-amber-600: #84b214;
+  --color-amber-700: #607f14;
+  --color-amber-800: #435b13;
+  --color-amber-900: #304111;
+  --color-solar-gold: #c8ff32;
+  --color-solar-gold-dark: #afe525;
+  --color-electric-yellow: #d5ff5a;
+  --color-solar-accent: #e2ff8e;
   
   --color-pure-white: #FFFFFF;
-  --color-soft-white: #F7F9FC;
-  --color-cool-gray: #667788;
-  --color-cool-gray-light: #9aa8b8;
-  --color-cool-gray-dark: #415161;
+  --color-soft-white: #f3f2ed;
+  --color-cool-gray: #647067;
+  --color-cool-gray-light: #8a958d;
+  --color-cool-gray-dark: #354039;
 
   --font-display: "Space Grotesk", sans-serif;
   --font-sans: "Inter", sans-serif;
@@ -35,14 +79,14 @@
 html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);
-  color: #0f172a;
-  background-color: #ffffff;
+  color: #101713;
+  background-color: #f3f2ed;
 }
 
 body {
   overflow-x: hidden;
-  background-color: #ffffff;
-  color: #0f172a;
+  background-color: #f3f2ed;
+  color: #101713;
 }
 
 /* Custom modern scrollbar */
@@ -51,21 +95,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #071B2E;
+  background: #0b120e;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #059669;
+  background: #c8ff32;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #10B981;
+  background: #d5ff5a;
 }
 
 /* Glassmorphism utilities */
 .glass-dark {
-  background: rgba(7, 27, 46, 0.85);
+  background: rgba(11, 18, 14, 0.88);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -79,22 +123,22 @@ body {
 }
 
 .glass-nav {
-  background: rgba(7, 27, 46, 0.92);
+  background: rgba(11, 18, 14, 0.94);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+  border-bottom: 1px solid rgba(200, 255, 50, 0.2);
 }
 
 .glow-emerald {
-  box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.35);
+  box-shadow: 0 0 35px -5px rgba(200, 255, 50, 0.3);
 }
 
 .glow-solar {
-  box-shadow: 0 0 35px -5px rgba(245, 183, 0, 0.35);
+  box-shadow: 0 0 35px -5px rgba(200, 255, 50, 0.3);
 }
 
 /* Selection style */
 ::selection {
-  background-color: #10B981;
-  color: #FFFFFF;
+  background-color: #c8ff32;
+  color: #0b120e;
 }

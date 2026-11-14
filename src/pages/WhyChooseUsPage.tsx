@@ -46,16 +46,16 @@ export const WhyChooseUsPage: React.FC<WhyChooseUsPageProps> = ({ onOpenQuote })
   ];
 
   return (
-    <div className="bg-[#071B2E] text-slate-100 min-h-screen">
+    <div className="bg-[#0b120e] text-slate-100 min-h-screen">
       {/* Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#040f1a] border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#08100b] border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/industrial-solar.jpg"
             alt="Solar precision background"
             className="w-full h-full object-cover opacity-20"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#040f1a] via-[#040f1a]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#08100b] via-[#08100b]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -95,7 +95,7 @@ export const WhyChooseUsPage: React.FC<WhyChooseUsPageProps> = ({ onOpenQuote })
               return (
                 <div
                   key={pillar.title}
-                  className="p-8 rounded-3xl bg-[#040f1a] border border-slate-800 hover:border-amber-400/30 shadow-xl transition-colors space-y-4"
+                  className="p-8 rounded-3xl bg-[#08100b] border border-slate-800 hover:border-amber-400/30 shadow-xl transition-colors space-y-4"
                 >
                   <div className="w-14 h-14 rounded-2xl bg-amber-400/10 border border-amber-400/20 text-amber-400 flex items-center justify-center">
                     <IconComp className="w-7 h-7" />
@@ -116,7 +116,7 @@ export const WhyChooseUsPage: React.FC<WhyChooseUsPageProps> = ({ onOpenQuote })
       </section>
 
       {/* Detailed Comparison Matrix */}
-      <section className="py-24 bg-[#040f1a] border-y border-slate-800">
+      <section className="py-24 bg-[#08100b] border-y border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Head-to-Head Comparison"
@@ -167,7 +167,7 @@ export const WhyChooseUsPage: React.FC<WhyChooseUsPageProps> = ({ onOpenQuote })
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-t from-[#040f1a] to-[#071B2E]">
+      <section className="py-20 bg-gradient-to-t from-[#08100b] to-[#0b120e]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-white">
             Experience the Sanmitra Difference Firsthand

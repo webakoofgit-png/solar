@@ -9,7 +9,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Residential Rooftop',
       desc: 'High-efficiency rooftop systems for independent villas, row houses, and societies.',
-      image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/residential-solar.jpg',
       icon: Home,
       link: '/solutions/residential',
       tag: 'Up to 90% Savings',
@@ -17,7 +17,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Commercial Solar',
       desc: 'Turnkey solar rooftop solutions for IT parks, corporate towers, and retail spaces.',
-      image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/commercial-solar.jpg',
       icon: Building2,
       link: '/solutions/commercial',
       tag: '40% Tax Depreciation',
@@ -25,7 +25,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Industrial Plants',
       desc: 'Heavy-duty megawatts for manufacturing factories with non-penetrative PEB clamps.',
-      image: 'https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/industrial-solar.jpg',
       icon: Factory,
       link: '/solutions/commercial',
       tag: 'Megawatt Scale',
@@ -33,7 +33,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Agricultural & Pumps',
       desc: 'Solar water pumps and rural micro-grids for farmhouses, orchards, and cold chains.',
-      image: 'https://images.unsplash.com/photo-1592833159155-c62df1b65634?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/residential-solar.jpg',
       icon: Sprout,
       link: '/solutions',
       tag: 'Zero Fuel Cost',
@@ -41,7 +41,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Solar Carports & EV',
       desc: 'Architectural parking canopies with integrated level-2 electric vehicle chargers.',
-      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/climate-energy.jpg',
       icon: Car,
       link: '/solutions',
       tag: 'Dual Utility',
@@ -49,7 +49,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Ground-Mounted Parks',
       desc: 'Utility-scale ground arrays engineered for open acreage, resorts, and campuses.',
-      image: 'https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/climate-energy.jpg',
       icon: Zap,
       link: '/solutions',
       tag: 'High Energy Yield',
@@ -57,7 +57,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Battery Storage (BESS)',
       desc: 'LiFePO4 lithium storage banks for uninterrupted zero-flicker backup during outages.',
-      image: 'https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/commercial-solar.jpg',
       icon: BatteryCharging,
       link: '/solutions',
       tag: '24/7 Resilience',
@@ -65,7 +65,7 @@ export const ProductsAndServicesGrid: React.FC = () => {
     {
       title: 'Operations & AMC',
       desc: 'Drone thermography, automated panel de-soiling, and round-the-clock IoT telemetry.',
-      image: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80',
+      image: '/images/home/industrial-solar.jpg',
       icon: Wrench,
       link: '/solutions',
       tag: '99.5% Uptime',

@@ -95,7 +95,7 @@ export const SavingsCalculator: React.FC<SavingsCalculatorProps> = ({
   };
 
   return (
-    <section id="calculator" className="py-24 bg-gradient-to-b from-[#0B253A] to-[#071B2E] text-white relative overflow-hidden">
+    <section id="calculator" className="py-24 bg-gradient-to-b from-[#17251c] to-[#0b120e] text-white relative overflow-hidden">
       {/* Background radial accent */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 

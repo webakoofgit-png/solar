@@ -16,7 +16,7 @@ export const LeadershipSpotlight: React.FC<LeadershipSpotlightProps> = ({ onOpen
       experience: '20+ Years in Renewable Infrastructure',
       quote:
         'Solar energy is not just a technological transition; it is an enduring commitment to ecological stewardship and economic self-reliance for generations of Indian families and institutions.',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80',
+      image: '/images/people/person-5.jpg',
       highlights: [
         'Spearheaded 50+ MW of cumulative solar installations across western India',
         'Pioneered zero-penetration mounting techniques for industrial roofs',
@@ -30,7 +30,7 @@ export const LeadershipSpotlight: React.FC<LeadershipSpotlightProps> = ({ onOpen
       experience: '16+ Years in High-Voltage Electrical Systems',
       quote:
         'Every kilowatt-hour we engineer is treated with uncompromising precision. When you invest in a 25-year asset, structural reliability and electrical safety must never be compromised.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
+      image: '/images/people/person-1.jpg',
       highlights: [
         'Certified high-voltage grid interconnection & HT substation sync specialist',
         'Directs 3D drone shadow profiling & SCADA IoT telemetry operations',
@@ -40,7 +40,7 @@ export const LeadershipSpotlight: React.FC<LeadershipSpotlightProps> = ({ onOpen
   ];
 
   return (
-    <section className="py-24 bg-[#F8FAFC] relative overflow-hidden border-t border-slate-200">
+    <section className="py-24 bg-[#f3f2ed] relative overflow-hidden border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           badge="Guiding Leadership"

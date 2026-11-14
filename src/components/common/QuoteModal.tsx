@@ -55,7 +55,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
         particleCount: 80,
         spread: 60,
         origin: { y: 0.6 },
-        colors: ['#F5B700', '#FFD447', '#071B2E', '#ffffff'],
+        colors: ['#c8ff32', '#d5ff5a', '#0b120e', '#ffffff'],
       });
     } catch {
       // fallback if canvas-confetti fails
@@ -102,7 +102,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: 'spring', duration: 0.4 }}
-            className="relative w-full max-w-2xl bg-[#071B2E] border border-amber-400/30 rounded-2xl shadow-2xl overflow-hidden z-10 my-8 text-white"
+            className="relative w-full max-w-2xl bg-[#0b120e] border border-amber-400/30 rounded-2xl shadow-2xl overflow-hidden z-10 my-8 text-white"
           >
             {/* Header glow */}
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500" />
@@ -261,7 +261,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({
                     <div className="pt-2">
                       <button
                         type="submit"
-                        className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-400 hover:to-emerald-500 text-white font-display font-bold text-sm uppercase tracking-wider shadow-lg shadow-emerald-950/40 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                        className="w-full py-3.5 bg-[#c8ff32] hover:bg-[#d5ff5a] text-[#0b120e] font-display font-bold text-sm uppercase tracking-wider shadow-lg shadow-black/20 transition-all flex items-center justify-center gap-2 cursor-pointer"
                       >
                         <Sparkles className="w-4 h-4 text-amber-300" />
                         <span>Submit Proposal Request</span>

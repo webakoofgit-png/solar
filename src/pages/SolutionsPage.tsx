@@ -24,14 +24,14 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuote }) => 
   return (
     <div className="bg-white text-slate-900 min-h-screen">
       {/* Hero */}
-      <section className="relative pt-36 pb-20 overflow-hidden bg-[#071B2E] text-white border-b border-slate-800">
+      <section className="relative pt-36 pb-20 overflow-hidden bg-[#0b120e] text-white border-b border-slate-800">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1508873696983-2df5293cb395?auto=format&fit=crop&w=2000&q=80"
+            src="/images/home/commercial-solar.jpg"
             alt="Solar solutions overview"
             className="w-full h-full object-cover opacity-25"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#071B2E] via-[#071B2E]/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b120e] via-[#0b120e]/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -55,7 +55,7 @@ export const SolutionsPage: React.FC<SolutionsPageProps> = ({ onOpenQuote }) => 
       </section>
 
       {/* Solutions Spectrum Cards */}
-      <section className="py-24 bg-[#F8FAFC]">
+      <section className="py-24 bg-[#f3f2ed]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
           {SOLUTIONS.map((solution, idx) => {
             const isEven = idx % 2 === 0;

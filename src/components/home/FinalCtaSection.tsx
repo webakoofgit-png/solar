@@ -10,16 +10,16 @@ interface FinalCtaSectionProps {
 
 export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({ onOpenQuote }) => {
   return (
-    <section className="relative py-28 bg-[#040f1a] overflow-hidden">
+    <section className="relative py-28 bg-[#08100b] overflow-hidden">
       {/* Background with solar imagery & gradient */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=2200&q=85"
+          src="/images/home/industrial-solar.jpg"
           alt="Solar panels at sunrise"
           className="w-full h-full object-cover opacity-25"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#071B2E] via-[#071B2E]/90 to-[#071B2E]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b120e] via-[#0b120e]/90 to-[#0b120e]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
       </div>
 
